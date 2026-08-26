@@ -2,28 +2,16 @@
 
 ## Índice
 
-- [Entorno de desarrollo Laravel + React + MariaDB con Nix](#entorno-de-desarrollo-laravel--react--mariadb-con-nix)
+- [Entorno de desarrollo](#entorno-de-desarrollo)
 - [Requisitos previos](#requisitos-previos)
   - [Direnv](#direnv)
 - [Estructura del entorno](#estructura-del-entorno)
 - [Primer levantamiento del proyecto](#primer-levantamiento-del-proyecto)
   - [1. Clonar el repositorio](#1-clonar-el-repositorio)
-  - [2. Entrar al entorno Nix](#2-entrar-al-entorno-nix)
+  - [2. Primer levantamiento](#2-primer-levantamiento)
   - [3. Inicialización automática de MariaDB](#3-inicialización-automática-de-mariadb)
-  - [4. Instalar dependencias PHP](#4-instalar-dependencias-php)
-  - [EXTRA: Uso de direnv](#extra-uso-de-direnv)
-- [Instalar dependencias JavaScript](#instalar-dependencias-javascript)
-- [Crear el archivo `.env`](#crear-el-archivo-env)
-- [Generar la clave de Laravel](#generar-la-clave-de-laravel)
-- [Configuración de MariaDB](#configuración-de-mariadb)
-  - [Iniciar MariaDB](#iniciar-mariadb)
-  - [Comprobar que MariaDB está funcionando](#comprobar-que-mariadb-está-funcionando)
-  - [Crear la base de datos del proyecto](#crear-la-base-de-datos-del-proyecto)
-  - [Crear un usuario para Laravel](#crear-un-usuario-para-laravel)
-- [Configuración de Laravel](#configuración-de-laravel)
-- [Ejecutar migraciones](#ejecutar-migraciones)
-- [Levantar Laravel](#levantar-laravel)
-- [Levantar React / Vite](#levantar-react--vite)
+- [Dependencias JavaScript](#dependencias-javascript)
+- [Comprobar que MariaDB está funcionando](#comprobar-que-mariadb-está-funcionando)
 - [Archivos que sí deben almacenarse en Git](#archivos-que-sí-deben-almacenarse-en-git)
 
 ## Entorno de desarrollo
